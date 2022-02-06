@@ -14,7 +14,7 @@ func main() {
 	password := "[passwos]"     // <------- (2) แก้ไขรหัสผ่านของอีเมลที่ใช้ส่ง
 
 	// Receiver email address.
-	to := "[receiver's email]" // <-------------- (3) แก้ไขอีเมลของผู้รับ หากใส่หลายเมล จะไปอยู่ที่ cc
+	to := "[receiver's email]" // <-------------- (3) แก้ไขอีเมลของผู้รับ
 
 	// smtp server configuration.
 	smtpHost := "smtp.gmail.com"
